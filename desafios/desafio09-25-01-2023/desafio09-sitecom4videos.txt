@@ -1,0 +1,19 @@
+1-criar a pasta do exercicio v
+2-selecionar 4 videos v
+3-guardar a url v
+4-criar 4 imagens(um botão de voltar página) v
+5-vscode/h1- v
+2videos-(caminho pra uma playlist ecaminho pra outra página criada com botão pra voltar)
+utilizar a tag br como separador
+2videos(mesmo procedimento)
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gqrySQQzvvQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LeLnlT-ZKw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe src="https://player.vimeo.com/video/301279569?h=8d6bcdedc8&color=ff0179" width="640" height="341" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Lf3ZV0UsnEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+

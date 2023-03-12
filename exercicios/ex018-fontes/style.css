@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+*{
+
+}
+
+main{
+
+}
+
+body{
+
+}
+
+h1{
+font-family:Time New Roman, Times, serif;
+font-size: 2em;
+}
+
+h2{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1.5em;
+}
+
+/*utilizando shorthand ou "atalho"*/
+h3{
+    font: italic bold monospace;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudando imagens dinâmicas</title>
+</head>
+<body>
+    <!--Aprendendo a trabalhar com imagens dinâmicas-->
+    <h1>Exercicío com imagens/midias em HTML5</h1>
+<p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente diminua e aumente o temanho do seu navegador</p>
+
+<picture>
+    <!--Carrega imagem pequena se tiver menos de 750px-->
+    <source media="(max-width: 750px)" srcset="imagens/imagendeestudo-p.png" type="image/png">
+    <!--Carrega imagem média se tiver menos de 1050pixels-->
+    <source media="(max-width: 1050px)" srcset="imagens/imagendeestudo-m.png" type="image/png">
+    <!--Imagem Full-->
+    <img src="imagens/Imagendeestudo-g.png" alt="imagem flexivel">
+</picture>
+
+<h1>Repoduzir áudio</h1>
+<p>Aprendendo a reproduzir áudio em HTML5</p>
+<!--mp3,wave ou ogg(open source)-->
+<audio src="midia/guanacast-33.mp3" controls autoplay></audio>
+</body>
+</html>

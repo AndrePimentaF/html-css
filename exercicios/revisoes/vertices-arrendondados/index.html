@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkcyan;
+            margin:0px;
+        }
+        header{
+            background-color:white;
+            padding:10px;
+        }
+        main{
+            background-color: white;
+            padding:10px;
+            margin:10px;
+            border-radius: 10px 20px 30px 40px;
+        }
+        nav{
+            background-color: black;
+        }
+        nav > a{
+            text-decoration: none;
+            color:white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration:underline;
+
+        }
+        article{
+            background-color: beige;
+        }
+        article > aside{
+            background-color: rgb(151, 145, 136);
+            box-shadow: 4px 1px 3px rgb(0 0 0 / 56%);
+        }
+        footer{
+            background-color: black;
+            color:white;
+            text-align: center;
+            padding:3px;
+            margin:0px;
+        }
+        footer >p{
+            margin:0px;
+        }
+    </style>
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+       <h1>Meu site</h1>
+       <p></p>
+       <!--Menu-->
+     <nav>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+     </nav>
+    </header>
+    <!--Conteúdo principal-->
+    <main>
+        <section>
+          <p>Assuntos Gerais</p>
+        </section>
+        <section>
+             <article>
+                <h2>Exemplo de noticia</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure eum sunt laudantium maiores ab quaerat odit. Ipsam exercitationem earum voluptatibus asperiores quia deserunt similique animi sapiente dolores vel, perferendis magnam!</p>
+                <aside>
+                    <p>Artigo escrito por...</p>
+                </aside>
+             </article>
+             <article>
+
+             </article>
+        </section>
+
+    </main>
+    <!--Rodapé-->
+    <footer>
+      <p>Desenvolvido por <a href="#">André Fonseca</a></p>
+    </footer>
+</body>
+</html>

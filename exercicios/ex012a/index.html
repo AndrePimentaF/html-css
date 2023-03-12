@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com videos</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video está hospedado no meu própio servidor</p>
+    <video src="videos/video-teste01.mp4" width="500" controls></video>
+    <!--Outro tipo de midia-->
+    <video src="videos/Video-Teste03-webm.webm" width="400" controls></video>
+    <!--Utilizando várias midias diferentes-->
+    <video width="500" poster="Não tem" controls>
+      <source src="videos/Video-Teste02-mp4.mp4" type="video/mp4">
+       <source src="videos/Video-Teste03-webm.webm" type="video/webm">
+       <p>Seu navegador não tem compatibilidade com reprodução de videos</p>
+    </video>
+
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DJPFXefopcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo videos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/306783762?h=ddea079e4d&color=ffffff" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/306783762">Xmas Hold &#039;Em</a> from <a href="https://vimeo.com/passionanimation">PASSION Animation</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</body>
+</html>
