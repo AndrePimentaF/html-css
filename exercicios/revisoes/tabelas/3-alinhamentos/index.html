@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela simples</title>
+  <style>
+   body{
+    font-family:Arial, Helvetica, sans-serif;
+   }
+   table{
+    width:400px;
+    height:400px;
+    border-collapse:collapse;
+   }
+   td{
+    border: 1px solid blue;
+    /*Alinhamento horizontal*/
+    text-align:center;
+    /*Alinhamento vertical*/
+    vertical-align:middle;
+   }
+   .numero{
+    text-align:right;
+   }
+   .top{
+    vertical-align:top;
+   }
+   .bottom{
+    vertical-align:bottom;
+   }
+   .left{
+    text-align:left;
+   }
+  </style>
+ </head>
+ <body>
+  <h1>Criando uma tabela</h1>
+  <table>
+   <tr><!--Primeira linha-->
+    <td>A1</td>
+    <td class="top">B1</td>
+    <td class="top">C1</td>
+    <td>D1</td>
+   </tr>
+   <tr class="linha"><!--Segunda linha-->
+    <td class="left">A2</td>
+    <td>B2</td>
+    <td>C2</td>
+    <td class="numero" >D2</td>
+   </tr>
+   <tr><!--Terceira linha-->
+    <td class="left">A3</td>
+    <td class="numero">B3</td>
+    <td>C3</td>
+    <td class="numero">D3</td>
+   </tr>
+   <tr><!--Quarta linha-->
+    <td>A4</td>
+    <td class="bottom">B4</td>
+    <td class="bottom">C4</td>
+    <td>D4</td>
+   </tr>
+  </table>
+
+ </body>
+</html>
